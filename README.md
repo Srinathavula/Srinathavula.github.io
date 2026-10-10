@@ -178,15 +178,5 @@ Srinathavula.github.io/
     └── screenshots/
 ```
 
-## Repository Organization Notes
 
-- Keep the four report and presentation links in this main README.
-- Do not create empty `src/`, `data/`, or `screenshots/` folders just to match the diagram.
-- Do not upload private, sensitive, or restricted dataset contents.
-- If the implementation code is not available, use this repository for accurate project documentation and the linked academic resources.
-'''
-
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created: {path}")
 
